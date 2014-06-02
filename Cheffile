@@ -1,0 +1,12 @@
+site "http://community.opscode.com/api/v1"
+
+# Example cookbooks
+#cookbook "apache"
+#cookbook "nginx"
+#cookbook "nano"
+
+# This cookbooks are not currently working for me
+#cookbook "lmctfy"
+#cookbook "lxc"
+
+cookbook "containerz", :path => "site_cookbooks/containerz"

@@ -1,0 +1,11 @@
+maintainer        'Pantheon'
+maintainer_email  'developers@getpantheon.com'
+description       'Installs/Configures Container Demo'
+version           '0.0.1'
+supports          'fedora'
+
+depends           'apache'
+depends           'apache2'
+depends           'nginx'
+depends           'lmctfy'
+depends           'lxc'
