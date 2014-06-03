@@ -7,13 +7,13 @@
 debootstrap --arch=amd64 unstable /srv/debian/
 
 # Launch a debian container
-systemd-nspawn -D ~/debian-tree/
+systemd-nspawn -D /srv/debian/
 
 # Install a base Arch Linux tree
-pacstrap -c -d /srv/arch-tree/ base
+pacstrap -c -d /srv/arch/ base
 
 # Launch an Arch container
-systemd-nspawn -bD /srv/arch-tree/
+systemd-nspawn -bD /srv/arch/
 ```
 
 ## References:
